@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Contact - Sandra Moser</title>
+  <link rel="favicon icon" type="image/x-icon" href="images/favicon.ico">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/style.production.css">
+</head>
+
+<body>
+  <!-- Header including the logo and the main navigation -->
+  <header class="page-header">
+    <!-- Add my logo here -->
+    <img src="images/logo.jpg" alt="Personal logo of Sandra Moser" id="logo" class="page-header__item">
+      <nav class="main-navigation page-header__item">
+      <ul role="menubar" class="navigation-list">
+        <li role="presentation">
+          <a href="index.html" role="menuitem" class="navigation-list__item navigation-list_item--active">Home page</a>
+        </li>
+        <li role="presentation">
+          <a href="about.html" role="menuitem" class="navigation-list__item">About Me</a>
+        </li>
+        <li role="presentation">
+          <a href="work.html" role="menuitem" class="navigation-list__item">Work</a>
+        </li>
+        <li role="presentation">
+          <a href="contact.html" role="menuitem" class="navigation-list__item">Contact me</a>
+        </li>
+      </ul>
+    </nav>
+
+  </header>
+
+  <contact>
+    <section class="contact">
+      <div style="text-align: center;" class="main__content">
+    <form action="" method="post" id="contact-form"> <!--id = unique form-id at this site-->
+      <label class="standard-label" for="input your email">Email: </label> <!--label belongs to class "standard-label"; All labels in the same class are grouped together and can be edited together-->
+      <input type="email" id="input your email" required> <!--Required field-->
+      <label class="standard-label" for="input your telephone-nr">Telephone: </label>
+      <input type="tel" id="input your telephone-nr" pattern="\d{3}[\-]\d{3}[\-]\d{4}" placeholder = "333-333- 4444 "> <!--Only numbers that follow the pattern ###-###-#### can be entered into the field-->
+      <label class="standard-label" for="space for your message" >Message: </label>
+      <textarea id="space for your message" maxlength="240" required></textarea>  <!--Message is required and restricted to 240 characters-->
+      <input type="submit" value="Send message">
+    </form>
+    <div>
+        <br>
+        Sandra Moser<br>
+        Leharstraße 7<br>
+        85098 Großmehring<br>
+        Deutschland<br>
+        <br>
+        Tel <a href="tel:+4915119518565">+49 15119518565</a><br> <!--Intitates a call to this number-->
+        Skype <a href="skype:live:.cid.b0ecc1f5f5381b8f"> Sandra Moser </a><br> <!--Intitates a Skype-call to this number-->
+        <a href="mailto:sandra@moser.nu">sandra@moser.nu</a><br> <!--Opens standard emailprgramm-->
+        <a href="mailto:sandra@moser.nu">Contact me</a>
+    </div>
+  </div>
+</contact>
+
+<footer class="page-footer">
+  <p>Find me on</p><!--Scoial Media Icons-->
+  <div class"social-media">
+    <a href="#" target="_blank"><img src="images/github_icon.svg" alt="Github"></a>
+    <a href="#" target="_blank"><img src="images/twitter_icon.svg" alt="Twitter"></a>
+    <a href="#" target="_blank"><img src="images/linkedin_icon.svg" alt="LinkedIn"></a>
+    <div>
+    </footer>
+  </section>
+
+<script src="js/tota11y.min.js"></script>
+
+</body>
+
+</html>
