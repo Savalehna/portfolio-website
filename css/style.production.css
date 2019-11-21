@@ -1,6 +1,5 @@
 {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
 }
 
 body {
@@ -39,9 +38,9 @@ a:visited {
 
 a:hover,
 a:focus {
-    text-decoration: none;
-    font-style: italic;
-    opacity: 0.7;
+  text-decoration: none;
+  font-style: italic;
+  opacity: 0.7;
 }
 
 a: active {
@@ -49,7 +48,7 @@ a: active {
 }
 
 .button,
- button {
+button {
   border: none;
   display: inline-block;
   font-family: inherit;
@@ -70,7 +69,7 @@ a: active {
 }
 
 button:hover,
- button:focus {
+button:focus {
   cursor: pointer;
   opacity: 0.8;
 }
@@ -91,14 +90,14 @@ header {
 
 .page-header__item {
   -webkit-box-flex: 0;
-      -ms-flex: 0 1 200px;
-          flex: 0 1 200px;
+  -ms-flex: 0 1 200px;
+  flex: 0 1 200px;
 }
 
 .page-header__item:last-child {
   -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
   text-align: right;
 }
 
@@ -132,8 +131,6 @@ header {
   text-align: right;
 }
 
- /* About Page */
-
 .about {
   display: block;
   text-align: center;
@@ -144,35 +141,34 @@ header {
   margin-bottom: 5%;
 }
 
- /* Contact Page */
 .contact {
   display: block;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   text-align: center;
 }
 
 .contact-form {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    text-align: center;
-    width: 33%;
-    margin: 0 auto;
-  }
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  text-align: center;
+  width: 33%;
+  margin: 0 auto;
+}
 
- .work {
-   display: block;
-   text-align: center;
- }
+.work {
+  display: block;
+  text-align: center;
+}
 
 .grid__item {
   display: inline-block;
@@ -343,7 +339,7 @@ header {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   text-align: center;
 }
