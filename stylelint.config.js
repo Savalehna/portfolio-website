@@ -4,7 +4,9 @@ module.exports = {
   "rules": {
     "at-rule-no-unknown": true,
     "block-no-empty": true,
-    
+    "indentation": 2,
+	"color-no-invalid-hex": true,
+ "color-hex-case": "lower",
     "comment-no-empty": true,
     "declaration-block-no-duplicate-properties": [ true, {
       ignore: ["consecutive-duplicates-with-different-values"],
@@ -43,8 +45,8 @@ module.exports = {
     "block-opening-brace-newline-after": "always-multi-line",
     "block-opening-brace-space-after": "always-single-line",
     "block-opening-brace-space-before": "always",
-   
-   
+    "color-hex-case": "lower",
+    "color-hex-length": "short",
     "comment-empty-line-before": [ "always", {
       except: ["first-nested"],
       ignore: ["stylelint-commands"],
