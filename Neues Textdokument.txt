@@ -1,4 +1,0 @@
-"indentation": 2,
-"color-no-invalid-hex": true,
- "color-hex-case": "lower",
- "color-hex-length": "short",
